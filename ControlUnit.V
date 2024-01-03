@@ -11,7 +11,7 @@ module ControlUnit(
 
 always @(OPCODE)
 begin
-  casez(OPCODE) // Use casez for don't-care conditions
+  casez(OPCODE) 
 
     4'b0110: // AND, OR, ADD, SUB, SLT, XOR, SLL
       begin
