@@ -10,7 +10,6 @@ output CarryOut
 );
 
 wire [13:0] COUT;
-//LISH 24 ALU 1 - biteshe
 
 ALU1 ALU0(A[0], B[0], BNegate, BNegate, Result[23], ALUOp, Result[0], COUT[0]);
 ALU1 ALU1(A[1], B[1], COUT[0], BNegate, 0, ALUOp, Result[1], COUT[1]);
